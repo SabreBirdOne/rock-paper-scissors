@@ -1,0 +1,2 @@
+# rock-paper-scissors
+From the Odin Project: https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
