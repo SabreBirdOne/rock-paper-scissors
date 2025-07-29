@@ -10,10 +10,16 @@ function getComputerChoice(){
     };
 }
 
+function getHumanChoice() {
+    // Requires: user to enter "rock", "paper" or "scissors" when prompted
+    // Returns: the user input.
+    return prompt("Please make your play: rock, paper or scissors?");
+}
+
 function testGetComputerChoice(n = 100000){
-    // requires: 
+    // Requires: 
     //      n: number of tests to run, default: 100000
-    // effect: 
+    // Effect: 
     //      logs into the console the number of rocks, papers and scissors returned by getComputerChoice
     let rock_count = 0;
     let paper_count = 0;
@@ -37,4 +43,6 @@ function testGetComputerChoice(n = 100000){
     console.log(scissors_count);
 }
 
-testGetComputerChoice();
+// testGetComputerChoice();
+let player_choice = getHumanChoice();
+console.log(player_choice);
